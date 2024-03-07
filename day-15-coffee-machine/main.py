@@ -76,3 +76,5 @@ def check_transaction_success(total, drink):
 
 main()
 
+# TODO: fix issue where resources are still being taken even if the user puts in $0. Need to update report() and resource_sufficient(drink). I feel that is where the bulk of the problem is.
+
